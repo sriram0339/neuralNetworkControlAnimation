@@ -74,3 +74,18 @@ The neural network feedback is visualized by showing the state of each neuron. A
 have RELU activation function. RED circle  means that the neuron is off and blue/green colored
 circle means it is active with lighter hues  signifying larger values and darker hues signifying
 smaller values.
+
+# Acknowledgments
+
+The authors would like to acknowledge contributions from
+- Susmit Jha, SRI, Menlo Park, CA.
+- Ashish Tiwari, Microsoft, Redmond, WA.
+- Arthur Claviere, Ecole Polytechnique and Supaero, France.
+
+This work was supported in part by the US National Science Foundation under
+award CPS 1646556 and the Air Force Research Laboratory. All ideas and opinions
+expressed here are those of the authors and not necessarily of NSF and AFRL.
+
+# Questions?
+
+Please contact the authors.
