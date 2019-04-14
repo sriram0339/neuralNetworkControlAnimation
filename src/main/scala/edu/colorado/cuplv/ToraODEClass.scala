@@ -1,5 +1,11 @@
 package edu.colorado.cuplv
 
+/*
+  ToraODEClass: ODE for the TORA system.
+
+  Author: Sriram Sankaranarayanan
+  Date: April 13, 2019
+*/
 import java.awt.{Color, Graphics2D}
 
 class ToraODEClass(override var curState: scala.List[Double], val bigNetwork: Boolean = true)  extends ODESimulator {

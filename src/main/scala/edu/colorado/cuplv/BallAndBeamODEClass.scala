@@ -1,5 +1,11 @@
 package edu.colorado.cuplv
 
+/*
+  Ball and Beam class: Implements the simulator and graphics for the ball and beam ODE.
+
+  Author: Sriram Sankaranarayanan
+  Date: April 14, 2019
+*/
 import java.awt.{Color, Graphics2D, Polygon}
 
 class BallAndBeamODEClass(override var curState: List[Double]) extends ODESimulator {

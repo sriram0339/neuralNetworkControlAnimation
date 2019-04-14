@@ -1,5 +1,13 @@
 package edu.colorado.cuplv
 
+/*
+  CartPoleAnimationApp: Implements the main SimpleSwingApplication interface.
+  This sets up the menu, canvas and the listeners for clicks.
+
+  Author: Sriram Sankaranarayanan
+  Date: April 12, 2019
+*/
+
 import java.awt.{Canvas, Color, Dimension, Graphics2D}
 
 import scala.annotation.tailrec

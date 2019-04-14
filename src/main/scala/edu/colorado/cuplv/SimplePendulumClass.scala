@@ -1,6 +1,11 @@
 package edu.colorado.cuplv
 import java.awt.{Color, Graphics2D}
+/*
+  SimplePendulumClass: Implements the simple pendulum ODE for the demo
 
+  Author: Sriram Sankaranarayanan
+  Date: April 13, 2019
+*/
 class SimplePendulumClass(override var curState: List[Double]) extends ODESimulator {
     var cur_input = 0.0
     val delta = 0.05

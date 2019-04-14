@@ -1,5 +1,10 @@
 package edu.colorado.cuplv
+/*
+  NeuralNetwork: Read a network from file and evaluate it for inputs.
 
+  Author: Sriram Sankaranarayanan
+  Date: April 13, 2019
+*/
 import scala.io.Source
 
 

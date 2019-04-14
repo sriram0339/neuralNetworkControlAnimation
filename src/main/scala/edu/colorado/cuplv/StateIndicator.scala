@@ -1,5 +1,11 @@
 package edu.colorado.cuplv
 
+/*
+  StateIndicator: Utility for drawing the state indicator bars and listeners for mouse clicks.
+
+  Author: Sriram Sankaranarayanan
+  Date: April 13, 2019
+*/
 import java.awt.Color
 
 import scala.swing.{Graphics2D}

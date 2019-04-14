@@ -1,4 +1,10 @@
 package edu.colorado.cuplv
+/*
+  ODESimulator: Interface to the numrecip library.
+
+  Author: Sriram Sankaranarayanan
+  Date: April 13, 2019
+*/
 
 import java.awt.Graphics2D
 
@@ -35,6 +41,7 @@ trait ODESimulator {
 }
 
 /*
+// - Old experimental stuff -- Commented out and moved elsewhere
 object CartPoleODESimulator extends ODESimulator {
     val m = 0.21
     val M = 0.815
