@@ -40,3 +40,14 @@ Compile and move the jar under the jars directory.
 ~~~
 
 == Interacting with Demo
+
+Once successful you will see the following window launch:
+
+<img src="figures/screenShot-Demo.png" width=50%>
+
+The demo animates the system controlled by a neural network feedback.
+It shows the animation of the system being controlled, the values of
+the state variables and control inputs in the model, a visualization of the
+networks in action and finally, a menu that lets the user switch between various demos.
+
+=== 
