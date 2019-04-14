@@ -13,10 +13,10 @@ that include:
 ## References
 
 [1] Souradeep Dutta, Xin Chen, and Sriram Sankaranarayanan, Reachability Analysis for Neural Feedback Systems using Regressive Polynomial Rule Inference In Hybrid Systems: Computation and Control (HSCC), pp. 150-168 (2019). Note: Special session on Safe Autonomy, AI and ML for CPS.
-[http://www.cs.colorado.edu/~srirams/papers/neural-reachability-hscc2019.pdf URL]
+[http://www.cs.colorado.edu/~srirams/papers/neural-reachability-hscc2019.pdf]
 
 [2] Souradeep Dutta, Susmit Jha, Sriram Sankaranarayanan, and Ashish Tiwari, Learning and Verification of Feedback Control Systems using Feedforward Neural Networks. In IFAC Conference on Analysis and Design of Hybrid Systems (ADHS), pp. 151-156 (2018).
-[http://www.cs.colorado.edu/~srirams/papers/learning-and-verification-adhs18.pdf URL]
+[http://www.cs.colorado.edu/~srirams/papers/learning-and-verification-adhs18.pdf]
 
 
 # Installation Instructions
@@ -28,7 +28,7 @@ Version 1.2.8 (or latest version) is recommended.
 
 ###  Installing Dependencies: numrecip package
 
-The code uses the `numrecip` [https://github.com/fons/numrecip library] from Fons Haffmans.
+The code uses the `numrecip` library from _Fons Haffmans_.
 To proceed you need to  checkout and compile this library from : https://github.com/fons/numrecip
 
 ~~~
