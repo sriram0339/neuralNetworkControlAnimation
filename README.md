@@ -14,6 +14,7 @@ that include:
 === Installing Scala Build Tools
 
 Instructions available online: https://www.scala-sbt.org/
+Version 1.2.8 (or latest version) is recommended.
 
 === Installing Dependencies: numrecip package
 
