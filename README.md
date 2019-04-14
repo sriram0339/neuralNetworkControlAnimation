@@ -13,8 +13,10 @@ that include:
 ## References
 
 [1] Souradeep Dutta, Xin Chen, and Sriram Sankaranarayanan, Reachability Analysis for Neural Feedback Systems using Regressive Polynomial Rule Inference In Hybrid Systems: Computation and Control (HSCC), pp. 150-168 (2019). Note: Special session on Safe Autonomy, AI and ML for CPS.
+[http://www.cs.colorado.edu/~srirams/papers/neural-reachability-hscc2019.pdf URL]
 
 [2] Souradeep Dutta, Susmit Jha, Sriram Sankaranarayanan, and Ashish Tiwari, Learning and Verification of Feedback Control Systems using Feedforward Neural Networks. In IFAC Conference on Analysis and Design of Hybrid Systems (ADHS), pp. 151-156 (2018).
+[http://www.cs.colorado.edu/~srirams/papers/learning-and-verification-adhs18.pdf URL]
 
 
 # Installation Instructions
@@ -51,11 +53,24 @@ Compile and move the jar under the jars directory.
 
 Once successful you will see the following window launch:
 
-<img src="figures/screenShot-Demo.png" width=50%>
+<img src="figures/screenShot-Demo.png" width=50% border=1px>
 
 The demo animates the system controlled by a neural network feedback.
 It shows the animation of the system being controlled, the values of
 the state variables and control inputs in the model, a visualization of the
 networks in action and finally, a menu that lets the user switch between various demos.
 
-###
+### State Variables Display
+
+You can click on the bar corresponding to any of the state variables to change its value.
+
+**Note:** The animations are exercising the system outside the region where we were able to
+perform reachability verification. You will most certainly be able to cause instabilities by
+clicking around this display.
+
+### Neural Networks Display
+
+The neural network feedback is visualized by showing the state of each neuron. All neurons
+have RELU activation function. RED circle  means that the neuron is off and blue/green colored
+circle means it is active with lighter hues  signifying larger values and darker hues signifying
+smaller values.
