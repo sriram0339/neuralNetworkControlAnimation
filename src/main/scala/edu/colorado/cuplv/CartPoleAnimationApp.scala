@@ -48,7 +48,11 @@ class AnimateEventHandler(var sp: ODESimulator) {
        new Panel {
            preferredSize = new Dimension(800, 800)
            override def paintComponent(g: Graphics2D) = {
-                sp.render(g)
+	   	g.setPaint(Color.WHITE)
+		g.clearRect(0,0, 800,800)
+
+	   	sp.render(g)
+		g.dispose()
             }
        }
 }
