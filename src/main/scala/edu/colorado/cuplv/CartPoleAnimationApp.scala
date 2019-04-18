@@ -46,7 +46,7 @@ class AnimateEventHandler(var sp: ODESimulator) {
 
    def getDefaultCanvas: Panel =
        new Panel {
-           preferredSize = new Dimension(800, 800)
+           preferredSize = new Dimension(1600, 1000)
            override def paintComponent(g: Graphics2D) = {
 	   	g.setPaint(Color.WHITE)
 		g.clearRect(0,0, 800,800)
@@ -74,7 +74,7 @@ object CartPoleAnimationApp extends SimpleSwingApplication {
             enabled = true
             tooltip = "Click and See"
         }
-        size = new Dimension(800,800)
+        size = new Dimension(1600,1000)
         menuBar = new MenuBar {
 
             contents += new MenuItem( Action("Inv. Pendulum") {

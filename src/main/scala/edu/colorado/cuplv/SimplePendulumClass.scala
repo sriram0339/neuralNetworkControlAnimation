@@ -17,13 +17,13 @@ class SimplePendulumClass(override var curState: List[Double]) extends ODESimula
     )
     val neuralNetwork = NeuralNetworkFactory.readFromFile("networks/controller_network_adhs.nt")
 
-    val thetaInd = new StateIndicator(-3.1415,3.1415,250,400, 150,25, "\u0398")
-    val omegaInd = new StateIndicator(-5,5,250,400, 120,25, "\u03c9")
-    val ctrlInd = new StateIndicator(-20, 20, 250, 400, 95,25, "u" )
+    val thetaInd = new StateIndicator(-3.1415,3.1415,750,1000, 150,25, "\u0398")
+    val omegaInd = new StateIndicator(-5,5,750,1000, 120,25, "\u03c9")
+    val ctrlInd = new StateIndicator(-20, 20, 750, 1000, 95,25, "u" )
     override def render(g: Graphics2D): Unit = {
         val theta = curState(0)
         val len = 150
-        val xPos = 250
+        val xPos = 450
         val dx = -(len * math.sin(theta)).toInt
         val dy = (len * math.cos(theta)).toInt
         g.setPaint(Color.RED)

@@ -78,6 +78,7 @@ smaller values.
 # Acknowledgments
 
 The authors would like to acknowledge contributions from
+- Xin Chen, University of Dayton, OH.
 - Susmit Jha, SRI, Menlo Park, CA.
 - Ashish Tiwari, Microsoft, Redmond, WA.
 - Arthur Claviere, Ecole Polytechnique and Supaero, France.
